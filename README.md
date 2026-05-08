@@ -1,16 +1,71 @@
-# React + Vite
+# ProposalCraft: AI-Powered Upwork Cover Letter Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Currently, two official plugins are available:
+**ProposalCraft** is a specialized tool designed for freelancers to generate high-converting Upwork cover letters in seconds. Built with **React 19** and **Vite**, it combines a professional dark-themed UI with dynamic template logic to help you win more jobs.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Key Features
 
-## React Compiler
+*   **Smart Template Generation:** Instantly creates tailored proposals by merging your professional profile with specific job requirements.
+*   **Dynamic Tone Switching:** Choose between four distinct communication styles to match the client's vibe:
+    *   **Professional:** Formal and structured.
+    *   **Friendly:** Warm and approachable.
+    *   **Concise:** Direct and to-the-point.
+    *   **Enthusiastic:** High-energy and passion-driven.
+*   **Comprehensive Profile Management:** Store your skills, experience, hourly rate, and portfolio links for consistent brand messaging.
+*   **Optimized UI/UX:** A sleek, minimal dark interface focused on productivity and readability.
+*   **One-Click Copy:** Streamlined workflow to get your proposal from the app to Upwork instantly.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+*   **Frontend:** [React 19](https://react.dev/)
+*   **Build Tool:** [Vite](https://vitejs.dev/)
+*   **Styling:** Modern CSS-in-JS (Inline styles for maximum portability and speed)
+*   **Linting:** ESLint with React Hooks & Refresh plugins
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🏗️ How it Works
+
+1.  **Configure Profile:** Set up your default professional identity in the "Profile" tab.
+2.  **Input Job Details:** Paste the Upwork job description into the generator.
+3.  **Select Tone:** Pick the tone that best fits the client's posting.
+4.  **Generate & Refine:** Review the AI-structured letter, make any quick edits, and copy it to your clipboard.
+
+## ⚙️ Installation & Development
+
+### Prerequisites
+- Node.js (v18+)
+- npm or yarn
+
+### Steps
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Sherry2005/my-proposal-app.git
+   cd my-proposal-app
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+   The app will be available at `http://localhost:5173`.
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## 🛡️ Best Practices for Freelancers
+
+*   **Review Before Sending:** While ProposalCraft provides a strong foundation, always give the final text a quick read to ensure it addresses specific client "pain points."
+*   **Update Your Profile:** Regularly update your "Experience" and "Skills" sections as you complete more projects.
+
+---
+**Developed by [Sherry Mohareb](https://github.com/Sherry2005)**
+*Helping freelancers land their dream projects with smarter automation.*
