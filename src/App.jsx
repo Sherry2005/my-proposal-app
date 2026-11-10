@@ -61,7 +61,7 @@ export default function App() {
       flexDirection: "column"
     }}>
       {/* Header */}
-      <header style={{
+      <header className="app-header" style={{
         padding: "28px 40px",
         borderBottom: "1px solid #1e1e2e",
         display: "flex",
@@ -101,34 +101,19 @@ export default function App() {
         </div>
       </header>
 
-      <main style={{ flex: 1, display: "flex", gap: 0, maxWidth: "1200px", margin: "0 auto", width: "100%", padding: "32px 40px" }}>
-        {tab === "generate" ? (
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24, width: "100%" }}>
-            {/* Left: Input */}
-            <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-              <div>
-                <label style={{ fontSize: 11, letterSpacing: "0.12em", textTransform: "uppercase", color: "#6b6b8a", display: "block", marginBottom: 8 }}>
-                  Job Description
-                </label>
-                <textarea
-                  value={jobDesc}
-                  onChange={e => setJobDesc(e.target.value)}
-                  placeholder="Paste the Upwork job description here…"
-                  style={{
-                    width: "100%", height: 320,
-                    background: "#10101c",
-                    border: "1px solid #2a2a3e",
-                    borderRadius: 12,
-                    color: "#e8e6f0",
-                    fontSize: 14,
-                    padding: "16px",
-                    resize: "vertical",
-                    fontFamily: "Georgia, serif",
-                    lineHeight: 1.6,
-                    boxSizing: "border-box",
-                    outline: "none"
-                  }}
-                />
+              <main
+                className="app-main"
+                style={{
+                  flex: 1,
+                  display: "flex",
+                  width: "100%",
+                  maxWidth: "none",
+                  margin: 0,
+                  padding: "32px clamp(20px, 4vw, 56px)",
+                  boxSizing: "border-box",
+                  minWidth: 0
+                }}
+              >
               </div>
 
               <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
